@@ -1,0 +1,6 @@
+framework module Pods_poc_ios_with_kmp {
+  umbrella header "Pods-poc-ios-with-kmp-umbrella.h"
+
+  export *
+  module * { export * }
+}

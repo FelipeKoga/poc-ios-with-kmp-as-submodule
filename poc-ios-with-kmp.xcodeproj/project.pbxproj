@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		687F8FBD2FE01FDF38D792C6 /* Pods_poc_ios_with_kmpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A397DBD1AB2B467A294BD6C7 /* Pods_poc_ios_with_kmpTests.framework */; };
+		CDDC240775B202477000F32B /* Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 580B89C36CFC1BCDB084D016 /* Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework */; };
+		D366E3F12D30BBAF003A13B3 /* Pods_poc_ios_with_kmp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7208FBC151D61AEC855E36 /* Pods_poc_ios_with_kmp.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D3B942142D30AF7A008173E7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DC7F494DA3520E3B5370BBF /* Pods-poc-ios-with-kmp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmp.release.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmp/Pods-poc-ios-with-kmp.release.xcconfig"; sourceTree = "<group>"; };
+		3E7208FBC151D61AEC855E36 /* Pods_poc_ios_with_kmp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_ios_with_kmp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		580B89C36CFC1BCDB084D016 /* Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9471066ACAB24F3AEC36D957 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.debug.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests/Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A397DBD1AB2B467A294BD6C7 /* Pods_poc_ios_with_kmpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_ios_with_kmpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B942032D30AF77008173E7 /* poc-ios-with-kmp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-ios-with-kmp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B942132D30AF7A008173E7 /* poc-ios-with-kmpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-ios-with-kmpTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B9421D2D30AF7A008173E7 /* poc-ios-with-kmpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-ios-with-kmpUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4A3F377E47CF0B6025D7C2 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.release.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests/Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F380DF9A3915DEA77373103C /* Pods-poc-ios-with-kmp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmp.debug.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmp/Pods-poc-ios-with-kmp.debug.xcconfig"; sourceTree = "<group>"; };
+		F3EA13242163BD47FDF15BAE /* Pods-poc-ios-with-kmpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmpTests.debug.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmpTests/Pods-poc-ios-with-kmpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBB6520D379EB16D6030707B /* Pods-poc-ios-with-kmpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-ios-with-kmpTests.release.xcconfig"; path = "Target Support Files/Pods-poc-ios-with-kmpTests/Pods-poc-ios-with-kmpTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D366E3F12D30BBAF003A13B3 /* Pods_poc_ios_with_kmp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687F8FBD2FE01FDF38D792C6 /* Pods_poc_ios_with_kmpTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDDC240775B202477000F32B /* Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853780946F748FC547C8FDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E7208FBC151D61AEC855E36 /* Pods_poc_ios_with_kmp.framework */,
+				580B89C36CFC1BCDB084D016 /* Pods_poc_ios_with_kmp_poc_ios_with_kmpUITests.framework */,
+				A397DBD1AB2B467A294BD6C7 /* Pods_poc_ios_with_kmpTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B4E37A7EBC48B12278E5CF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F380DF9A3915DEA77373103C /* Pods-poc-ios-with-kmp.debug.xcconfig */,
+				2DC7F494DA3520E3B5370BBF /* Pods-poc-ios-with-kmp.release.xcconfig */,
+				9471066ACAB24F3AEC36D957 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.debug.xcconfig */,
+				EC4A3F377E47CF0B6025D7C2 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.release.xcconfig */,
+				F3EA13242163BD47FDF15BAE /* Pods-poc-ios-with-kmpTests.debug.xcconfig */,
+				FBB6520D379EB16D6030707B /* Pods-poc-ios-with-kmpTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D3B941FA2D30AF77008173E7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +120,8 @@
 				D3B942162D30AF7A008173E7 /* poc-ios-with-kmpTests */,
 				D3B942202D30AF7A008173E7 /* poc-ios-with-kmpUITests */,
 				D3B942042D30AF77008173E7 /* Products */,
+				8B4E37A7EBC48B12278E5CF3 /* Pods */,
+				853780946F748FC547C8FDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3B942272D30AF7A008173E7 /* Build configuration list for PBXNativeTarget "poc-ios-with-kmp" */;
 			buildPhases = (
+				87632D9A6AA795AD4BDD2A5D /* [CP] Check Pods Manifest.lock */,
 				D3B941FF2D30AF77008173E7 /* Sources */,
 				D3B942002D30AF77008173E7 /* Frameworks */,
 				D3B942012D30AF77008173E7 /* Resources */,
@@ -111,8 +155,6 @@
 				D3B942052D30AF77008173E7 /* poc-ios-with-kmp */,
 			);
 			name = "poc-ios-with-kmp";
-			packageProductDependencies = (
-			);
 			productName = "poc-ios-with-kmp";
 			productReference = D3B942032D30AF77008173E7 /* poc-ios-with-kmp.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3B9422A2D30AF7A008173E7 /* Build configuration list for PBXNativeTarget "poc-ios-with-kmpTests" */;
 			buildPhases = (
+				2E84374DF922177736CEDB20 /* [CP] Check Pods Manifest.lock */,
 				D3B9420F2D30AF7A008173E7 /* Sources */,
 				D3B942102D30AF7A008173E7 /* Frameworks */,
 				D3B942112D30AF7A008173E7 /* Resources */,
@@ -134,8 +177,6 @@
 				D3B942162D30AF7A008173E7 /* poc-ios-with-kmpTests */,
 			);
 			name = "poc-ios-with-kmpTests";
-			packageProductDependencies = (
-			);
 			productName = "poc-ios-with-kmpTests";
 			productReference = D3B942132D30AF7A008173E7 /* poc-ios-with-kmpTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3B9422D2D30AF7A008173E7 /* Build configuration list for PBXNativeTarget "poc-ios-with-kmpUITests" */;
 			buildPhases = (
+				3E27ADCFA54911F6BDA8F26E /* [CP] Check Pods Manifest.lock */,
 				D3B942192D30AF7A008173E7 /* Sources */,
 				D3B9421A2D30AF7A008173E7 /* Frameworks */,
 				D3B9421B2D30AF7A008173E7 /* Resources */,
@@ -157,8 +199,6 @@
 				D3B942202D30AF7A008173E7 /* poc-ios-with-kmpUITests */,
 			);
 			name = "poc-ios-with-kmpUITests";
-			packageProductDependencies = (
-			);
 			productName = "poc-ios-with-kmpUITests";
 			productReference = D3B9421D2D30AF7A008173E7 /* poc-ios-with-kmpUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +270,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E84374DF922177736CEDB20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-ios-with-kmpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E27ADCFA54911F6BDA8F26E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87632D9A6AA795AD4BDD2A5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-ios-with-kmp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D3B941FF2D30AF77008173E7 /* Sources */ = {
@@ -390,6 +499,7 @@
 		};
 		D3B942282D30AF7A008173E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F380DF9A3915DEA77373103C /* Pods-poc-ios-with-kmp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -419,6 +529,7 @@
 		};
 		D3B942292D30AF7A008173E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC7F494DA3520E3B5370BBF /* Pods-poc-ios-with-kmp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -448,6 +559,7 @@
 		};
 		D3B9422B2D30AF7A008173E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EA13242163BD47FDF15BAE /* Pods-poc-ios-with-kmpTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +579,7 @@
 		};
 		D3B9422C2D30AF7A008173E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB6520D379EB16D6030707B /* Pods-poc-ios-with-kmpTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +599,7 @@
 		};
 		D3B9422E2D30AF7A008173E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9471066ACAB24F3AEC36D957 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -503,6 +617,7 @@
 		};
 		D3B9422F2D30AF7A008173E7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4A3F377E47CF0B6025D7C2 /* Pods-poc-ios-with-kmp-poc-ios-with-kmpUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

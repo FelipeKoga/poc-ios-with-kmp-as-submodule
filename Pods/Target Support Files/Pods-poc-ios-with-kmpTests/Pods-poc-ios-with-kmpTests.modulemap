@@ -1,0 +1,6 @@
+framework module Pods_poc_ios_with_kmpTests {
+  umbrella header "Pods-poc-ios-with-kmpTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
