@@ -1,6 +1,8 @@
-# iOS Project with KMP Shared Module as Git Submodule
+# iOS App with KMP Shared Module and Git Submodules
 
-This guide explains how to integrate a Kotlin Multiplatform (KMP) shared module into an iOS project using CocoaPods and Git submodules.
+This repository demonstrates how to set up an iOS app integrating a Kotlin Multiplatform (KMP) shared module using CocoaPods and Git submodules.
+
+The KMP shared module used in this project can be found at: [https://github.com/FelipeKoga/poc-kmp-submodule](https://github.com/FelipeKoga/poc-kmp-submodule).
 
 ## Steps
 
@@ -22,9 +24,9 @@ This guide explains how to integrate a Kotlin Multiplatform (KMP) shared module 
      ```
 
 3. **Add the KMP shared module as a submodule**
-   - Add the KMP repository as a submodule:
+   - Add the KMP shared module repository as a submodule:
      ```bash
-     git submodule add <REPO_URL> shared
+     git submodule add https://github.com/FelipeKoga/poc-kmp-submodule shared
      git submodule update --init --recursive
      ```
    - The project structure should now look like this:
@@ -75,10 +77,5 @@ This guide explains how to integrate a Kotlin Multiplatform (KMP) shared module 
      ```
    - Import and use the shared module in your Swift code:
      ```swift
-     import SharedModule
+     import shared
      ```
-
-## Notes
-- Make sure the `shared` submodule is correctly added and updated.
-- Ensure all paths in the `Podfile` are accurate relative to the project structure.
-
