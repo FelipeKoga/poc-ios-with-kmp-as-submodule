@@ -15,5 +15,7 @@ target 'poc-ios-with-kmp' do
   target 'poc-ios-with-kmpUITests' do
     # Pods for testing
   end
+  
+  pod 'shared', :path => './shared/shared'
 
 end
